@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/tomato.svg" />
+    <link rel="stylesheet" href="/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pomodoro App</title>
+  </head>
+  <body
+    class="bg-emerald-300 flex flex-col gap-12 justify-center items-center h-screen"
+  >
+    <div class="bg-emerald-200 py-2 px-6 rounded-lg text-emerald-600">
+      <span id="current-date"></span>
+    </div>
+    <div
+      id="app"
+      class="flex flex-col items-center gap-2 bg-emerald-100 py-4 px-12 rounded-md shadow-md"
+    >
+      <div><h1 class="text-4xl mb-3 drop-shadow-sm">Time Block</h1></div>
+      <div class="flex justify-center items-center">
+        <span id="current-step" class="text-emerald-500 font-semibold"></span>
+      </div>
+      <!-- Timer -->
+      <div class="flex justify-center">
+        <span class="text-6xl drop-shadow-md" id="minutes">00</span>
+        <span class="text-6xl">:</span>
+        <span class="text-6xl" id="seconds">00</span>
+      </div>
+      <!-- buttons area -->
+      <div
+        class="p-2 bg-emerald-200 rounded-full flex gap-3 justify-center border border-emerald-300 mt-3 w-full cursor-pointer hover:bg-emerald-300 transition duration-500"
+        id="start"
+      >
+        <!-- Start button -->
+        <div
+          class="flex justify-center items-center hover:text-emerald-700 cursor-pointer transition-colors duration-200"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            id="start-img"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z"
+            />
+          </svg>
+          <img
+            src="/assets/coffee.svg"
+            id="coffee-img"
+            alt="tomato"
+            class="w-6 h-6 hidden"
+          />
+        </div>
+      </div>
+    </div>
+    <div>
+      <h3 class="text-center my-2 text-emerald-500">
+        Set your goal with this time block
+      </h3>
+      <textarea
+        name="action"
+        class="p-6 w-full md:m-0 md:w-[680px] text-lg bg-emerald-200 rounded-md shadow-md outline-none text-gray-800 text-center mb-18 md:mb-0"
+        id="action-description"
+        cols="20"
+        rows="4"
+      ></textarea>
+    </div>
+    <div class="fixed bottom-2 flex gap-12">
+      <div class="flex flex-col justify-center items-center">
+        <label for="work-time" class="text-emerald-600">Work Time</label>
+        <input
+          id="work-time"
+          value="25"
+          type="number"
+          class="w-14 bg-emerald-800 text-white text-center p-1 rounded-md"
+        />
+      </div>
+      <div class="flex flex-col justify-center items-center">
+        <label for="rest-time" class="text-emerald-600">Rest Time</label>
+        <input
+          id="rest-time"
+          value="5"
+          type="number"
+          class="w-14 bg-emerald-800 text-gray-200 text-center p-1 rounded-md"
+        />
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
