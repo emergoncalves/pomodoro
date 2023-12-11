@@ -22,5 +22,5 @@
   },
 	"release": {
     "branches": ["main", "dev"]
-  },
+  }
 }
