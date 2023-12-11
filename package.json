@@ -40,8 +40,8 @@
         }
       ],
       "@semantic-release/changelog",
-      "@semantic-release/github",
-      "@semantic-release/git"
+      "@semantic-release/git",
+      "@semantic-release/github"
     ],
     "prepare": [
       "@semantic-release/changelog",
