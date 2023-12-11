@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
     "autoprefixer": "^10.4.15",
     "postcss": "^8.4.29",
     "semantic-release": "^22.0.10",
