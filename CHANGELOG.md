@@ -1,3 +1,13 @@
+# [5.0.0](https://github.com/emergoncalves/pomodoro/compare/v4.1.0...v5.0.0) (2023-12-12)
+
+
+* New release ([7058702](https://github.com/emergoncalves/pomodoro/commit/70587023bfb3edd345721d5058f452064d0c9275))
+
+
+### BREAKING CHANGES
+
+* test
+
 # [4.1.0](https://github.com/emergoncalves/pomodoro/compare/v4.0.0...v4.1.0) (2023-12-12)
 
 
