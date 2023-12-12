@@ -1,5 +1,5 @@
 {
-  "name": "pomodoro_app",
+  "name": "pomodoro",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -33,15 +33,9 @@
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
-      [
-        "@semantic-release/npm",
-        {
-          "npmPublish": false
-        }
-      ],
       "@semantic-release/changelog",
-      "@semantic-release/git",
-      "@semantic-release/github"
+      "@semantic-release/github",
+      "@semantic-release/git"
     ],
     "prepare": [
       "@semantic-release/changelog",
