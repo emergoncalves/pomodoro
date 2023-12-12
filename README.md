@@ -15,3 +15,5 @@ Increase your productivity and manage your time effectively with this easy-to-us
 ## Tech Stack
 
 JavaScript Vanilla and TailwindCSS
+
+Semantic Release

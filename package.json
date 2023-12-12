@@ -1,7 +1,7 @@
 {
   "name": "pomodoro_app",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "base": "/pomodoro/",
   "scripts": {
@@ -40,8 +40,8 @@
         }
       ],
       "@semantic-release/changelog",
-      "@semantic-release/github",
-      "@semantic-release/git"
+      "@semantic-release/git",
+      "@semantic-release/github"
     ],
     "prepare": [
       "@semantic-release/changelog",
