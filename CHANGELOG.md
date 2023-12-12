@@ -1,3 +1,13 @@
+# [4.0.0](https://github.com/emergoncalves/pomodoro/compare/v3.0.0...v4.0.0) (2023-12-12)
+
+
+* Generate release (teste) ([820091a](https://github.com/emergoncalves/pomodoro/commit/820091a515e717cdffc90e116b1a2e4e490a7c90))
+
+
+### BREAKING CHANGES
+
+* test
+
 # [3.0.0](https://github.com/emergoncalves/pomodoro/compare/v2.0.0...v3.0.0) (2023-12-12)
 
 
