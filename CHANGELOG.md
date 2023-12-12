@@ -1,3 +1,10 @@
+# [5.1.0](https://github.com/emergoncalves/pomodoro/compare/v5.0.0...v5.1.0) (2023-12-12)
+
+
+### Features
+
+* new update in index file ([f26a385](https://github.com/emergoncalves/pomodoro/commit/f26a38592ce7955f120e6e2728f716c08c461c95))
+
 # [5.0.0](https://github.com/emergoncalves/pomodoro/compare/v4.1.0...v5.0.0) (2023-12-12)
 
 
