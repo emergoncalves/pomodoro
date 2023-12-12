@@ -1,3 +1,10 @@
+# [4.1.0](https://github.com/emergoncalves/pomodoro/compare/v4.0.0...v4.1.0) (2023-12-12)
+
+
+### Features
+
+* add meta description ([c654bf6](https://github.com/emergoncalves/pomodoro/commit/c654bf623dd66bfacd4818bb6d9d2302c16f2694))
+
 # [4.0.0](https://github.com/emergoncalves/pomodoro/compare/v3.0.0...v4.0.0) (2023-12-12)
 
 
